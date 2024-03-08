@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
-<body>
-    <h1>Ajouter un mot</h1>
+<body style="letter-spacing: 1px;">
+    <div style="display: flex; justify-content: center;">
+        <h1>Ajouter un mot</h1>
+    </div>
     <form id="wordForm">
-
-        <textarea name="json" id="json" cols="30" rows="20"></textarea>
-        <button type="submit">Ajouter</button>
+        <textarea name="json" id="json" cols="30" rows="20" style="border-radius: 8px; padding: 10px;"></textarea>
+        <button type="submit" style="margin-top: 4px; letter-spacing: 1px; background: none; border-radius: 8px;">AJOUTER</button>
+        <div id="message"></div>
     </form>
     <script src="popup.js"></script>
 </body>
